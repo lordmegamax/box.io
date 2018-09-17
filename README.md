@@ -1,13 +1,14 @@
 # box.io
 
-Необходимо доработать:
+TODO:
 
-- Изменить прямые вызовы findViewById на ButterKnife
-- Добавить кеширование данных
-- Написать unit тесты для связки логики presenter'a с view
-- Сохранение состояния при повороте экрана, можно реализовать либо через репозиторий синглтоном, либо используя ViewModel из архитектуры
-- Для конвертации из моделей данных в JSON планируется использование JSON
-- Для связи с RESTful API можно взять Retrofit + OkHttp
-- Для тестирования веб запросов MockWebServer или же кастомный interceptor (намного проще в текущем случае)
-- В случае загрузки изображений Picasso либо Glide (что почти одно и то же)
-- Прочесать код Lint'ом
+- Change `findViewById` calls with `ButterKnife` injection
+- Add cache for received data
+
+- Write unit tests to test business logic Presenter and MVP-View
+- Save state in case of orientation changes. This can be implemented via Repository pattern as singleton or using ViewModel from android arch components
+- Use GSON for de|serialization the JSON data
+- Use `Retrofit + OkHttp` to fire up web requests to RESTful API
+- If needed, test the web requests using `MockWebServer` or custom `interceptor` in OkHttp for simple cases.
+- Use Picasso or Glide for image loading|cache|changes
+- Check Lint warnings and recommendations
