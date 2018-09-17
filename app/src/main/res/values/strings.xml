@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Box.io</string>
+
+    <string name="box_size">%dcm x %dcm x %dcm</string>
+    <string name="print_my_name_on_top_of_the_box">Print my name on top of the box</string>
+    <string name="size">Size:</string>
+    <string name="color">Color:</string>
+    <string name="request_the_box">Request the box</string>
+    <string name="email">Email</string>
+    <string name="your_name">Your name</string>
+    <string name="error_name">Please, check the name</string>
+    <string name="error_email">Please, check the email</string>
+    <string name="error_color">Invalid selected color</string>
+    <string name="message_box_added">The box was successful added.</string>
+    <string name="clear">Clear</string>
+    <string name="message_not_implemented">Not yet implemented.</string>
+    <string name="error_something_bad">Something bad happened Please try again.</string>
+</resources>
